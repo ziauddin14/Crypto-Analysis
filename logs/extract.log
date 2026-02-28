@@ -11,3 +11,17 @@
 2026-03-01 00:55:17,401 - INFO - Transformation complete. Output: 20 docs.
 2026-03-01 00:55:17,401 - INFO - Upserting 20 docs into crypto_market...
 2026-03-01 00:55:19,294 - INFO - Upsert Summary: {'matched': 0, 'modified': 0, 'upserted': 20, 'total': 20}
+2026-03-01 01:03:32,677 - INFO - >>> Starting ETL Pipeline Orchestration...
+2026-03-01 01:03:32,677 - INFO - Starting fetch: usd, page 1, per_page 20
+2026-03-01 01:03:35,658 - INFO - Successfully fetched 20 coins.
+2026-03-01 01:03:35,736 - INFO - Raw data saved to: data_raw\markets_20260301_010335.json
+2026-03-01 01:03:35,739 - INFO - Starting transformation for 20 items.
+2026-03-01 01:03:35,739 - INFO - Transformation complete. Output: 20 docs.
+2026-03-01 01:03:37,136 - INFO - Unique index created on crypto_market: coin_id
+2026-03-01 01:03:37,243 - INFO - Index created on crypto_market_history: extracted_at
+2026-03-01 01:03:37,351 - INFO - Compound index created on crypto_market_history: (coin_id, extracted_at)
+2026-03-01 01:03:37,351 - INFO - Upserting 20 docs into crypto_market...
+2026-03-01 01:03:40,220 - INFO - Upsert Summary: {'matched': 20, 'modified': 20, 'upserted': 0, 'total': 20}
+2026-03-01 01:03:40,221 - INFO - Inserting 20 docs into crypto_market_history...
+2026-03-01 01:03:40,763 - INFO - Successfully inserted 20 history records.
+2026-03-01 01:03:40,764 - INFO - <<< ETL Pipeline completed successfully in 8.09s.
