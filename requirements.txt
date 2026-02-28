@@ -1,0 +1,7 @@
+requests
+pandas
+pymongo
+python-dotenv
+streamlit
+plotly
+streamlit-autorefresh

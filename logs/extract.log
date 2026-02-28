@@ -1,0 +1,13 @@
+2026-03-01 00:49:50,384 - INFO - Starting fetch: usd, page 1, per_page 20
+2026-03-01 00:49:51,802 - INFO - Successfully fetched 20 coins.
+2026-03-01 00:49:51,807 - INFO - Raw data saved to: data_raw\markets_20260301_004951.json
+2026-03-01 00:55:15,979 - INFO - Unique index created on crypto_market: coin_id
+2026-03-01 00:55:16,075 - INFO - Index created on crypto_market_history: extracted_at
+2026-03-01 00:55:16,177 - INFO - Compound index created on crypto_market_history: (coin_id, extracted_at)
+2026-03-01 00:55:16,177 - INFO - Starting fetch: usd, page 1, per_page 20
+2026-03-01 00:55:17,390 - INFO - Successfully fetched 20 coins.
+2026-03-01 00:55:17,396 - INFO - Raw data saved to: data_raw\markets_20260301_005517.json
+2026-03-01 00:55:17,401 - INFO - Starting transformation for 20 items.
+2026-03-01 00:55:17,401 - INFO - Transformation complete. Output: 20 docs.
+2026-03-01 00:55:17,401 - INFO - Upserting 20 docs into crypto_market...
+2026-03-01 00:55:19,294 - INFO - Upsert Summary: {'matched': 0, 'modified': 0, 'upserted': 20, 'total': 20}
